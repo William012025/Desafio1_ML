@@ -135,27 +135,4 @@ Na guia **Modelo** para o melhor modelo treinado:
 - No **Azure Machine Learning Studio**, navegue até **Endpoints**.
 - Abra o endpoint em tempo real `predict-rentals`.
 
-### Dados de Teste
-Na guia **Teste**, substitua o JSON pelo seguinte:
 
-```json
-{
-  "input_data": {
-    "columns": [
-      "day",
-      "mnth",
-      "year",
-      "season",
-      "holiday",
-      "weekday",
-      "workingday",
-      "weathersit",
-      "temp",
-      "atemp",
-      "hum",
-      "windspeed"
-    ],
-    "index": [0],
-    "data": [[1,1,2022,2,0,1,1,2,0.3,0.3,0.3,0.3]]
-  }
-}
